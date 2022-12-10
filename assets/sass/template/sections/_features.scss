@@ -1,0 +1,90 @@
+.feaures-mark {
+  position: relative;
+  border: 1px solid #e7eaf0;
+  padding: 25px 30px 25px 40px;
+  transition: all ease 0.4s;
+  --icon-size: 40px;
+  margin-left: calc(var(--icon-size) / 2);
+
+  .mark-icon {
+    position: absolute;
+    top: 50%;
+    left: calc(var(--icon-size) / -2);
+    display: inline-block;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    line-height: calc(var(--icon-size) + 3px);
+    margin-top: calc(var(--icon-size) / -2);
+    text-align: center;
+    background-color: $white-color;
+    color: $theme-color;
+    border-radius: 50%;
+    box-shadow: 0px 6px 37px 0px rgba(39, 71, 125, 0.1);
+  }  
+
+  &:hover {
+    box-shadow: 0px 6px 37px 0px rgba(28, 53, 95, 0.1);
+  }
+}
+
+
+.features-inner {
+  margin-left: 100px;
+  padding: 90px 0 70px 0;
+}
+
+  .features-video-box {
+    height: 100%;
+    width: 100%;
+  }
+
+@include xl {
+  .features-inner {
+    margin-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@include ml {  
+  .features-inner {
+    margin-left: 30px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+}
+
+
+@include lg {
+  .features-video-box {
+    height: 600px;
+  }
+}
+
+@include md {
+  .features-video-box {
+    height: 400px;
+  }
+
+  .features-inner {
+    margin-left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+
+@include sm {
+  .text-md-start.feaures-mark {
+    --icon-size: 40px;
+    padding: 40px 25px 25px 25px;
+    margin-top: calc(var(--icon-size) / 2);
+    margin-left: 0;
+
+    .mark-icon {
+      top: 0;
+      left: 50%;
+      margin-top: calc(var(--icon-size) / -2);
+      margin-left: calc(var(--icon-size) / -2);
+    }
+  }
+}

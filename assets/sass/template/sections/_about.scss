@@ -1,0 +1,418 @@
+.about-img1 {
+  position: relative;
+  
+  .play-btn {
+    position: absolute;
+    left: 160px;
+    bottom: 160px;
+  }
+}
+
+.about-rating {
+  position: relative;
+  z-index: 1;
+  margin-top: 35px;
+  margin-bottom: 18px;
+  padding: 18px 0 35px 34px;
+
+  .shape {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+}
+
+.vs-list,
+.about-list {
+  li {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 18px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &:before {
+      content: '\f00c';
+      font-family: $icon-font;
+      font-weight: 400;
+      width: 25px;
+      height: 25px;
+      line-height: 25px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: $theme-color;
+      color: $white-color;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 12px;
+    }
+  }
+}
+
+
+.vs-list {
+  li {
+    &:before {
+      background-color: $white-color;
+      color: $theme-color;
+      box-shadow: 0px 5px 20px 0px rgba(28, 53, 95, 0.1);
+    }
+  }
+}
+
+.avater-small {
+  width: 54px;
+  height: 54px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+
+.about-box1 {
+  padding: 45px 60px 60px 60px;
+}
+
+
+.doctor-box {
+  max-width: 204px;
+  text-align: center;
+  padding: 40px 20px 35px 20px;
+  box-shadow: 0px 6px 37px 0px rgba(39, 71, 125, 0.07);
+  background-color: $white-color;
+  border-radius: 20px;
+
+  .icon-btn {
+    margin-bottom: 15px;
+  }
+}
+
+
+
+.counter-list {
+
+  li:before,
+  .count-number {
+    font-weight: 700;
+    font-family: $title-font;
+    font-size: 72px;
+    line-height: 1;
+  }
+  
+  .count-number {
+    margin-bottom: 5px;
+  }
+
+  li {
+    display: inline-block;
+    padding-right: 55px;
+    margin-right: 32px;
+    position: relative;
+
+    &:before {
+      content: ':';
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+      margin-right: 0;
+
+      &::before {
+        display: none;
+      }
+    }
+  }
+}
+
+
+.vs-code-box {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border: 2px solid $theme-color;
+  background-color: $white-color;
+  color: $title-color;
+  font-weight: 600;
+  padding: 19px 43px;
+  border-radius: 3px;
+  line-height: 1;
+
+  &::before {
+    content: '';
+    position: absolute;
+    background-color: $theme-color;
+    width: 30px;
+    height: 30px;
+    right: -17px;
+    bottom: -17px;
+    transform: rotate(45deg);
+  }
+}
+
+
+.about-tab-nav {
+  .vs-btn {
+    background-color: transparent;
+    color: $body-color;
+    font-weight: 400;
+    border: 2px solid #efeff0;
+    box-shadow: 0px 6px 37px 0px rgba(28, 53, 95, 0.1);
+    position: relative;
+    z-index: 1;
+
+    &:after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      width: 14px;
+      height: 14px;
+      margin: 0 0 -7px -7px;
+      background-color: $theme-color;
+      transform: rotate(45deg);
+      z-index: -1;
+      opacity: 0;
+      visibility: hidden;
+      transition: all ease 0.4s;
+    }
+
+    &:hover,
+    &.active {
+      background-color: $theme-color;
+      color: $white-color;
+      box-shadow: none;
+      border-color: transparent;
+    }
+
+    &.active {
+      &:after {
+        opacity: 1;
+        visibility: visible;
+        transition-delay: 0.2s;
+      }
+    }
+
+  }
+
+  .nav-item {
+    margin-right: 20px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+
+.vs-middle-box {
+  padding: 20px 40px;
+  border-radius: 5px;
+}
+
+
+.exp-box-bottom {
+  position: absolute;
+  left: -1px;
+  bottom: -1px;
+  padding: 22px 37px 15px 25px;
+  border-top-right-radius: 50px;
+
+  .exp-year {
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 700;
+  }
+}
+
+
+.about-img3 {
+  border: 10px solid $white-color;
+  background-color: $white-color;
+  box-shadow: 0px 20px 70px 0px rgba(28, 53, 95, 0.09);
+}
+
+
+@include lg {
+  .about-img1 .play-btn {
+    left: 100px;
+    bottom: 100px;
+  }
+
+  .doctor-box.top-50 {
+    margin-top: 20%;
+  }
+
+  .about-box1 {
+    margin-bottom: 40px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+  }
+}
+
+@include md {
+  .about-img1 .play-btn {
+    left: 190px;
+    bottom: 180px;
+  }
+
+  .middle-box-layout1 {
+    margin-bottom: 80px !important;
+  }
+}
+
+
+@include sm {
+  .about-img1 .play-btn {
+    left: 120px;
+    bottom: 130px;
+  }
+
+  .about-box1 {
+    padding: 0;
+    margin-bottom: 40px;
+    box-shadow: none;
+  }
+
+  .about-tab-nav {
+    .vs-btn {
+      padding: 11px 15px;
+      font-size: 14px;
+    }
+    
+    .nav-item {
+      margin-right: 10px;
+    }
+  }
+
+  .vs-list li,
+  .about-list li {
+    padding-left: 30px;
+
+    &:before {
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      top: 3px;
+      font-size: 12px;
+    }
+  }
+
+  .counter-list {
+    text-align: center;
+
+    li::before,
+    .count-number {
+      font-size: 48px;
+    }
+
+    li {
+      padding-right: 30px;
+      margin-right: 20px;
+    }
+
+    .count-name.fs-md {
+      font-size: 14px;
+    }
+  }
+
+  .exp-box-bottom {
+    padding: 22px 26px 8px 10px;
+  }
+
+  .exp-box-bottom {
+    padding: 14px 21px 2px 10px;
+    .exp-year {
+      font-size: 28px;
+    }
+    
+    .text-title {
+      font-size: 14px;
+    }
+    
+  }
+
+  .doctor-box {
+    max-width: 170px;
+    padding: 25px 5px 20px 5px;
+    border-radius: 5px;
+    transform: translateY(-10%) !important;
+    box-shadow: 0px 6px 70px 0px rgba(39, 71, 125, 0.13);
+  }
+
+  .about-img2 {
+    margin-bottom: 60px;
+  }
+
+
+  .about-call-text.h4 {
+    font-size: 16px;
+  }
+
+  .vs-middle-box.d-md-flex {
+    .media-icon {
+      margin-right: 0;
+    }
+  }
+
+  .vs-code-box.mt-20 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-rating {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding: 17px 0 13px 18px;
+
+    .total.h2 {
+      font-size: 36px;
+      margin-right: 10px;
+    }
+  }
+
+  .breadcumb-menu-wrap {
+    --icon-size: 30px;
+    --shape-size: 40px;
+  }
+
+  .breadcumb-menu-wrap>i:before {
+    font-size: 14px;
+  }
+  
+
+}
+
+
+
+
+@include xs {
+  .about-img1 .play-btn {
+    left: 10%;
+    bottom: 10%;
+  }
+
+  // .doctor-box {
+  //   position: static !important;
+  //   margin: 0;
+  //   transform: translateY(0) !important;
+  //   margin-top: 30px;
+  //   width: 100%;
+  //   max-width: 100%;
+  // }
+
+
+  .vs-middle-box {
+    padding: 25px;
+  
+    .text-center {
+      &.media-icon {
+        margin-right: 0;
+      }
+    }
+  }
+}
