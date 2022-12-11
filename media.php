@@ -1,22 +1,10 @@
-<?php
-    include 'config.php';
-    try{
-        $id = $_GET['id'];
-        $sql = "select * from services where Id = $id";
-        $result = $con->query($sql);
-        $row = $result->fetch_assoc();
-    } 
-    catch (Exception $e) {
-        header("Location: error.php");
-    }
-?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Medilax - Medical and Health Care HTML Template - Services Details</title>
+    <title>Medilax - Medical and Health Care HTML Template - Product</title>
     <meta name="author" content="Vecuro">
     <meta name="description" content="Medilax - Medical and Health Care HTML Template">
     <meta name="keywords" content="Medilax - Medical and Health Care HTML Template" />
@@ -241,90 +229,198 @@
     <!--==============================
         Header Area
     ==============================-->
-    
     <?php include 'layout.php'; ?>
     <!--==============================
     Breadcumb
 ============================== -->
     <div class="breadcumb-wrapper ">
-        <div class="parallax" data-parallax-image="<?php echo $row['BackgroundImageTop'] ?>"></div>
+        <div class="parallax" data-parallax-image="assets/img/breadcurmb/breadcurmb-1-1.jpg"></div>
         <div class="container z-index-common">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title"> <?php echo $row['Name'] ?></h1>
+                <h1 class="breadcumb-title">Media</h1>
                 <div class="breadcumb-menu-wrap">
                     <i class="far fa-home-lg"></i>
                     <ul class="breadcumb-menu">
                         <li><a href="index.html">Home</a></li>
-                        <li class="active"><?php echo $row['Name']?> </li>
+                        <li class="active">Media</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
     <!--==============================
-    Service Area
+    Media Area
     ==============================-->
-    <section class="vs-service-wrapper space-top space-md-bottom">
+    <section class="vs-team-wrapper space">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="service-content mb-30">
-                        <div class="vs-surface wow" data-wow-delay="0.02s">
-                            <img src="<?php echo $row['BackgroundImageMain'] ?>" alt="Service Image" class="w-100">
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-xl-11 col-xxl-10 ">
-                                <div class="service-bar">
-                                    <div class="row justify-content-between align-items-center gy-4 text-center text-lg-start">
-                                        <div class="col-sm-6 col-lg-auto">
-                                            <span class="fs-xs">Treatment Name</span>
-                                            <h2 class="h5 mb-0"><?php echo $row['Name'] ?></h2>
-                                        </div>
-                                        <div class="col-sm-6 col-lg-auto">
-                                            <span class="fs-xs">Time Duration</span>
-                                            <h2 class="h5 mb-0"><?php echo $row['TimeDuration'] ?></h2>
-                                        </div>
-                                        <div class="col-sm-6 col-lg-auto">
-                                            <span class="fs-xs">Doctor Name</span>
-                                            <h2 class="h5 mb-0">Dr. David Smith</h2>
-                                        </div>
-                                        <div class="col-sm-6 col-lg-auto">
-                                            <a href="appointment.html" class="vs-btn style2">Appointment<i class="fal fa-calendar-alt"></i></a>
-                                        </div>
-                                    </div>
+            <div class="col-md-auto">
+                <div class="row">
+                    <div class="col-md-auto mt-3 mt-md-0 d-flex align-items-center justify-content-center" style="white-space: nowrap;">
+                        <label style="white-space: nowrap; "for="filterby">Filter By</label>
+                        <select class="form-select style2" style="margin-bottom:15px; margin-left:15px;" name="filterby" id="filterby">
+                            <option>$0 - $200</option>
+                            <option>$200 - $300</option>
+                            <option>$300 - $400</option>
+                            <option>$400 - $600</option>
+                            <option>$600 - $800</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                
+                <div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-card">
+                        <div class="team-head">
+                            <img src="assets/img/team/t-1-1.png" alt="Team Area" class="w-100">
+                            <div class="team-card-links">
+                                <a class="team-links-toggler" href="#"><i class="fas fa-share-alt"></i></a>
+                                <div class="team-social">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fas fa-basketball-ball"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <p class="fs-md text-title mb-4 pb-2"><?php echo $row['BigText'] ?></p>
-                        <p><?php echo $row['Textt'] ?></p>
-                        <div class="row mt-40 mb-20">
-                            <div class="col-lg-4 mb-30">
-                                <img src="<?php echo $row['ReferenceImg1'] ?>" alt="Service Image" class="w-100">
-                            </div>
-                            <div class="col-lg-4 mb-30">
-                                <img src="<?php echo $row['ReferenceImg2'] ?>" alt="Service Image" class="w-100">
-                            </div>
-                            <div class="col-lg-4 mb-30">
-                                <img src="<?php echo $row['ReferenceImg3'] ?>" alt="Service Image" class="w-100">
+                        <div class="team-body">
+                            <h3 class="h4 mb-0"><a href="team-details.html" class="text-reset">David Smith</a></h3>
+                            <p class="fs-xs degi text-theme mb-2"><strong>Specialist</strong></p>
+                            <p class="fs-xs">Conceptualize user-centric web-readiness via economically sound e-services. Interactively coordinate next-generation </p>
+                            <div class="">
+                                <p class="fs-xs team-info"><i class="fas fa-phone text-theme"></i><a class="text-reset" href="tel:+592201520156">+592 2015 20156</a></p>
+                                <p class="fs-xs team-info"><i class="fas fa-envelope text-theme"></i><a class="text-reset" href="mailto:info.example@mail.com">info.example@mail.com</a></p>
                             </div>
                         </div>
-                        <h3><?php echo $row['Question'] ?></h3>
-                        <p><?php echo $row['Answer'] ?></p>
-                        <?php if($row["Question2"]){ ?>
-                            <h3><?php echo $row['Question2'] ?></h3>
-                            <p><?php echo $row['Answer2'] ?></p>
-                        <?php } ?>
-
-                        <?php if($row["Question3"])
-                            { 
-                        ?>
-                            <h3><?php echo $row['Question3'] ?></h3>
-                            <p><?php echo $row['Answer3'] ?></p>
-                        <?php
-                            }
-                        ?>
                     </div>
                 </div>
+                <div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-card">
+                        <div class="team-head">
+                            <img src="assets/img/team/t-1-2.png" alt="Team Area" class="w-100">
+                            <div class="team-card-links">
+                                <a class="team-links-toggler" href="#"><i class="fas fa-share-alt"></i></a>
+                                <div class="team-social">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fas fa-basketball-ball"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-body">
+                            <h3 class="h4 mb-0"><a href="team-details.html" class="text-reset">Vivi Marian</a></h3>
+                            <p class="fs-xs degi text-theme mb-2"><strong>Osteopathic</strong></p>
+                            <p class="fs-xs">Conceptualize user-centric web-readiness via economically sound e-services. Interactively coordinate next-generation </p>
+                            <div class="">
+                                <p class="fs-xs team-info"><i class="fas fa-phone text-theme"></i><a class="text-reset" href="tel:+592201520156">+592 2015 20156</a></p>
+                                <p class="fs-xs team-info"><i class="fas fa-envelope text-theme"></i><a class="text-reset" href="mailto:info.example@mail.com">info.example@mail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-card">
+                        <div class="team-head">
+                            <img src="assets/img/team/t-1-3.png" alt="Team Area" class="w-100">
+                            <div class="team-card-links">
+                                <a class="team-links-toggler" href="#"><i class="fas fa-share-alt"></i></a>
+                                <div class="team-social">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fas fa-basketball-ball"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-body">
+                            <h3 class="h4 mb-0"><a href="team-details.html" class="text-reset">Farhan Moris</a></h3>
+                            <p class="fs-xs degi text-theme mb-2"><strong>Pediatrician</strong></p>
+                            <p class="fs-xs">Conceptualize user-centric web-readiness via economically sound e-services. Interactively coordinate next-generation </p>
+                            <div class="">
+                                <p class="fs-xs team-info"><i class="fas fa-phone text-theme"></i><a class="text-reset" href="tel:+592201520156">+592 2015 20156</a></p>
+                                <p class="fs-xs team-info"><i class="fas fa-envelope text-theme"></i><a class="text-reset" href="mailto:info.example@mail.com">info.example@mail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-card">
+                        <div class="team-head">
+                            <img src="assets/img/team/t-1-4.png" alt="Team Area" class="w-100">
+                            <div class="team-card-links">
+                                <a class="team-links-toggler" href="#"><i class="fas fa-share-alt"></i></a>
+                                <div class="team-social">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fas fa-basketball-ball"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-body">
+                            <h3 class="h4 mb-0"><a href="team-details.html" class="text-reset">Jerzzy Lamot</a></h3>
+                            <p class="fs-xs degi text-theme mb-2"><strong>Surgeon</strong></p>
+                            <p class="fs-xs">Conceptualize user-centric web-readiness via economically sound e-services. Interactively coordinate next-generation </p>
+                            <div class="">
+                                <p class="fs-xs team-info"><i class="fas fa-phone text-theme"></i><a class="text-reset" href="tel:+592201520156">+592 2015 20156</a></p>
+                                <p class="fs-xs team-info"><i class="fas fa-envelope text-theme"></i><a class="text-reset" href="mailto:info.example@mail.com">info.example@mail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-card">
+                        <div class="team-head">
+                            <img src="assets/img/team/t-1-5.png" alt="Team Area" class="w-100">
+                            <div class="team-card-links">
+                                <a class="team-links-toggler" href="#"><i class="fas fa-share-alt"></i></a>
+                                <div class="team-social">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fas fa-basketball-ball"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-body">
+                            <h3 class="h4 mb-0"><a href="team-details.html" class="text-reset">Peter Parker</a></h3>
+                            <p class="fs-xs degi text-theme mb-2"><strong>Specialist</strong></p>
+                            <p class="fs-xs">Conceptualize user-centric web-readiness via economically sound e-services. Interactively coordinate next-generation </p>
+                            <div class="">
+                                <p class="fs-xs team-info"><i class="fas fa-phone text-theme"></i><a class="text-reset" href="tel:+592201520156">+592 2015 20156</a></p>
+                                <p class="fs-xs team-info"><i class="fas fa-envelope text-theme"></i><a class="text-reset" href="mailto:info.example@mail.com">info.example@mail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4 mb-30 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-card">
+                        <div class="team-head">
+                            <img src="assets/img/team/t-1-6.png" alt="Team Area" class="w-100">
+                            <div class="team-card-links">
+                                <a class="team-links-toggler" href="#"><i class="fas fa-share-alt"></i></a>
+                                <div class="team-social">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fas fa-basketball-ball"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-body">
+                            <h3 class="h4 mb-0"><a href="team-details.html" class="text-reset">John Deo</a></h3>
+                            <p class="fs-xs degi text-theme mb-2"><strong>Member</strong></p>
+                            <p class="fs-xs">Conceptualize user-centric web-readiness via economically sound e-services. Interactively coordinate next-generation </p>
+                            <div class="">
+                                <p class="fs-xs team-info"><i class="fas fa-phone text-theme"></i><a class="text-reset" href="tel:+592201520156">+592 2015 20156</a></p>
+                                <p class="fs-xs team-info"><i class="fas fa-envelope text-theme"></i><a class="text-reset" href="mailto:info.example@mail.com">info.example@mail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vs-pagination pt-lg-30">
+                <ul>
+                    <li><a href="#" class="active">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#"><i class="fas fa-angle-right"></i></a></li>
+                </ul>
             </div>
         </div>
     </section>

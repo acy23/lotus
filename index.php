@@ -1,10 +1,13 @@
+<?php 
+    include 'config.php';
+?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Medilax - Medical and Health Care HTML Template - Home One</title>
+    <title>Medilax - Medical and Health Care HTML Template - Home Two</title>
     <meta name="author" content="Vecuro">
     <meta name="description" content="Medilax - Medical and Health Care HTML Template">
     <meta name="keywords" content="Medilax - Medical and Health Care HTML Template" />
@@ -64,21 +67,9 @@
 </head>
 
 <body>
-
-
-    <!--[if lte IE 9]>
-    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-
-
-
     <!--********************************
    		Code Start From Here 
 	******************************** -->
-
-
-
-
     <!--==============================
      Preloader
   ==============================-->
@@ -229,207 +220,132 @@
     <!--==============================
         Header Area
     ==============================-->
-    <header class="header-wrapper header-layout1">
-        <!-- Header Top -->
-        <div class="header-top bg-title py-2 d-none d-md-block">
-            <div class="container custom-container py-1">
-                <div class="row justify-content-center justify-content-xl-between">
-                    <div class="col-auto">
-                        <ul class="header-top-info list-unstyled m-0">
-                            <li><i class="far fa-envelope"></i><a href="mailto:support@hospital.com" class="text-reset">support@hospital.com</a></li>
-                            <li><i class="far fa-map-marker-alt"></i>36D Street Brooklyn, New York</li>
-                            <li><i class="far fa-clock"></i>Mon - Fri: 8:00 am - 7:00 pm</li>
-                        </ul>
-                    </div>
-                    <div class="col-auto d-none d-xl-block">
-                        <ul class="head-top-links text-end">
-                            <li>
-                                <!-- Dropdown -->
-                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="fal fa-globe"></i> English
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
-                                    <li><a href="#">German</a></li>
-                                    <li><a href="#">French</a></li>
-                                    <li><a href="#">Italian</a></li>
-                                    <li><a href="#">Latvian</a></li>
-                                    <li><a href="#">Spanish</a></li>
-                                    <li><a href="#">Greek</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <ul class="header-social">
-                                    <li>
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <button type="submit" class="header-search-btn searchBoxTggler">Search<i class="far fa-search"></i></button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Sticky Active -->
-        <div class="sticky-wrap">
-            <div class="sticky-active">
-                <!-- Header Main -->
-                <div class="header-main">
-                    <div class="container custom-container position-relative">
-                        <div class="row align-items-center justify-content-between">
-                            <div class="col-auto col-xl-3 col-xxl-auto d-flex">
-                                <div class="header1-logo">
-                                    <a href="index.html"><img src="assets/img/logo.png" alt="Logo"></a>
-                                </div>
-                                <div class="d-none-xxxl header-call phone-box d-flex align-items-center">
-                                    <span class="box-icon"><i class="fas fa-phone-alt"></i></span>
-                                    <div class="media-body">
-                                        <span class="fs-xs text-title">Call Anytime</span>
-                                        <p class="h4 fw-bold lh-1 mb-0"><a href="tel:66925682596">669 2568 2596</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-auto col-xl-9 col-xxl-auto py-3 py-lg-0">
-                                <div class="row  justify-content-xl-between justify-content-xxl-end align-items-center">
-                                    <div class="col-auto">
-                                        <nav class="main-menu menu-style1 d-none d-lg-block">
-                                            <ul>
-                                                <li class="menu-item-has-children">
-                                                    <a href="index.html">Home</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="index.html">Home One</a></li>
-                                                        <li><a href="index-2.html">Home Two</a></li>
-                                                        <li><a href="index-3.html">Home Three</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="about.html">About</a>
-                                                </li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="service.html">Services</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="service.html">Services</a></li>
-                                                        <li><a href="service-details.html">Services Details</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="blog.html">Blog</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="blog.html">Blog</a></li>
-                                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item-has-children mega-menu-wrap">
-                                                    <a href="#">Pages</a>
-                                                    <ul class="mega-menu">
-                                                        <li><a href="shop.html">Pagelist 1</a>
-                                                            <ul>
-                                                                <li><a href="index.html">Home One</a></li>
-                                                                <li><a href="index-2.html">Home Two</a></li>
-                                                                <li><a href="index-3.html">Home Three</a></li>
-                                                                <li><a href="about.html">About Us</a></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li><a href="#">Pagelist 2</a>
-                                                            <ul>
-                                                                <li><a href="service.html">Services</a></li>
-                                                                <li><a href="service-details.html">Services Details</a></li>
-                                                                <li><a href="team.html">Team</a></li>
-                                                                <li><a href="team-details.html">Team Details</a></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li><a href="#">Pagelist 3</a>
-                                                            <ul>
-                                                                <li><a href="project.html">Projects</a></li>
-                                                                <li><a href="shop.html">Shop</a></li>
-                                                                <li><a href="shop-details.html">Shop Details</a></li>
-                                                                <li><a href="cart.html">Shopping Cart</a></li>
-                                                                <li><a href="checkout.html">Checkout</a></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li><a href="#">Pagelist 4</a>
-                                                            <ul>
-                                                                <li><a href="blog.html">Blog</a></li>
-                                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                                                <li><a href="appointment.html">Appointment</a></li>
-                                                                <li><a href="contact.html">Contact</a></li>
-                                                                <li><a href="error.html">Error Page</a></li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="contact.html">Contact</a>
-                                                </li>
-                                            </ul>
-                                        </nav>
-                                        <button class="vs-menu-toggle d-inline-block d-lg-none"><i class="fas fa-bars"></i></button>
-                                    </div>
-                                    <div class="col-auto d-none d-xl-block">
-                                        <div class="header-btn">
-                                            <a href="#" class="icon-btn has-badge d-none d-xxl-inline-block"><i class="far fa-heart"></i><span class="badge">0</span></a>
-                                            <a href="#" class="icon-btn has-badge sideMenuToggler d-none d-xxl-inline-block"><i class="far fa-shopping-cart"></i><span class="badge">3</span></a>
-                                            <a href="appointment.html" class="vs-btn style2">Appointment<i class="fal fa-calendar-alt"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Header Notice -->
-        <div class="header-notice bg-title d-none d-xl-block">
-            <div class="shape" data-overlay="title"></div>
-            <div class="notice-text container custom-container text-end fs-xs">
-                <span class="text-theme"><i class="fas fa-exclamation-circle me-2"></i>Notice:</span>
-                <p class="text-white mb-0">Compellingly enhance web-enabled outsourcing after innovative.</p>
-                <a class="text-theme text-decoration-underline" href="about.html">Get More Info</a>
-            </div>
-        </div>
-    </header>
+    <?php include 'layout.php'; ?>
     <!--==============================
       Hero Area
     ==============================-->
     <section class="vs-hero-wrapper position-relative  ">
-        <div class="vs-hero-carousel" data-height="800" data-container="1900" data-slidertype="responsive" data-navbuttons="true">
-            <div class="ls-slide" data-ls="duration: 13000; transition2d: 5;">
-                <img src="assets/img/hero/h-bg-1-1.jpg" alt="Hero Image" class="ls-bg">
-                <p class="ls-l text-theme font-subtitle ls-responsive" data-ls-mobile="left: 100px; top: 80px;  font-size: 82px; " data-ls-tablet="left: 100px; top: 120px;  font-size: 62px; " data-ls-laptop="left: 100px; top: 120px;" style="left: 300px; top: 220px; font-size: 36px; font-weight: 400;" data-ls="delayin: 1000; texttransitionin: true; textstartatin: transitioninstart; texttypein: words_asc; textshiftin: 100; textoffsetyin: -100; textdurationin: 2000; offsetyout: -200; durationout: 2000; ">Our people and society</p>
-                <h1 class="text-title ls-l ls-responsive" data-ls-mobile="left: 100px; top: 230px;" data-ls-tablet="left: 100px; top: 230px;" data-ls-laptop="left: 100px; top: 180px;" style="left: 300px; top: 270px; font-size: 72px; font-weight: 700;" data-ls="delayin: 600; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">We always put the</h1>
-                <h1 class="text-theme ls-l ls-responsive" data-ls-mobile="left: 100px; top: 340px;" data-ls-tablet="left: 100px; top: 340px;" data-ls-laptop="left: 100px; top: 270px;" style="left: 300px; top: 352px; font-size: 72px; font-weight: 700;" data-ls="delayin: 0; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">patients first</h1>
-                <p class="ls-l ls-responsive ls-hide-md" data-ls-mobile="left: 100px; top: 400px;" data-ls-tablet="left: 100px; top: 400px;" data-ls-laptop="left: 100px; top: 400px; width: 805px; font-size: 24px; line-height: 42px;" style="left: 300px; top: 464px; width: 605px; font-size: 16px; font-weight: 400; white-space: normal; letter-spacing: 0.02em; line-height: 28px;" data-ls="delayin: 800; texttransitionin: true; textstartatin: transitioninstart; texttypein: lines_asc; textshiftin: 100; textoffsetyin: 100; textdurationin: 2000; offsetyout: 100; durationout: 2000; ">Conveniently drive go forward architectures with future-proof growth strategies. Energistically supply low-risk high-yield process improvements for mission-critical testing procedures</p>
-                <div class="ls-btn ls-l ls-responsive " data-ls-mobile="left: 100px; top: 500px;" data-ls-tablet="left: 100px; top: 500px;" data-ls-laptop="left: 100px;" style="left: 300px; top: 582px;" data-ls="offsetyin: 200; durationin: 2000; delayin: 1400; offsetyout: 300; durationout: 2000; durationout: 2000; ">
+        <div class="vs-hero-carousel" data-navprevnext="true" data-height="800" data-container="1900" data-slidertype="responsive">
+            <div class="ls-slide" data-ls="duration: 113000; transition2d: 5;">
+                <img src="assets/img/bg/h-bg-2-1.jpg" alt="Hero Image" class="ls-bg">
+
+                <h1 class="text-title ls-l ls-responsive" data-ls-mobile="left: 100px; top: 120px; font-size: 120px;" data-ls-tablet="left: 100px; top: 80px; font-size: 92px;" data-ls-laptop="left: 100px; top: 120px; font-size: 82px;" style="left: 335px; top: 208px; font-size: 72px; font-weight: 700;" data-ls="delayin: 600; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">We always put the</h1>
+
+                <h1 class="text-theme ls-l ls-responsive" data-ls-mobile="left: 100px;  top: 285px; font-size: 120px;" data-ls-tablet="left: 100px; top: 210px; font-size: 92px;" data-ls-laptop="left: 100px; top: 230px; font-size: 82px;" style=" left: 335px; top: 290px; font-size: 72px; font-weight: 700;" data-ls="delayin: 0; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">patients first</h1>
+
+                <p class="ls-l text-title ls-responsive ls-hide-sm" data-ls-mobile="left: 100px; " data-ls-tablet=" left: 100px; top: 360px; font-size: 34px; width: 1000px; line-height: 52px;" data-ls-laptop="left: 100px; top: 380px; font-size: 26px; width: 800px; line-height: 48px;" style="left: 335px; top: 400px; width: 605px; font-size: 16px; font-weight: 400; white-space: normal; letter-spacing: 0.02em; line-height: 28px;" data-ls="delayin: 800; texttransitionin: true; textstartatin: transitioninstart; texttypein: lines_asc; textshiftin: 100; textoffsetyin: 100; textdurationin: 2000; offsetyout: 100; durationout: 2000; ">Conveniently drive go forward architectures with future-proof growth strategies. Energistically supply low-risk high-yield process improvements for mission-critical testing procedures</p>
+
+                <div class="ls-btn ls-l ls-hide-md" style="top: 50%; left: 75%;">
+                    <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video style3"><i class="fas fa-play"></i></a>
+                </div>
+
+                <div class="ls-btn ls-l ls-responsive" data-ls-mobile="left: 100px; " data-ls-tablet="left: 100px; top: 580px;" data-ls-laptop="left: 100px; top: 580px;" style=" left: 335px; top: 518px;" data-ls="offsetyin: 200; durationin: 2000; delayin: 1400; offsetyout: 300; durationout: 2000; offsetyout: 100; durationout: 2000; ">
+                    <a href="service.html" class="vs-btn style2">View All Services<i class="fas fa-bolt"></i></a>
+                </div>
+
+            </div>
+            <div class="ls-slide" data-ls="duration: 113000; transition2d: 5;">
+                <img src="assets/img/hero/h-bg-2-2.jpg" alt="Hero Image" class="ls-bg">
+                <h1 class="text-title ls-l ls-responsive" data-ls-mobile="left: 100px; top: 120px; font-size: 120px;" data-ls-tablet="left: 100px; top: 80px; font-size: 92px;" data-ls-laptop="left: 100px; top: 120px; font-size: 82px;" style="left: 335px; top: 208px; font-size: 72px; font-weight: 700;" data-ls="delayin: 600; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">Best Treatment for</h1>
+                <h1 class="text-theme ls-l ls-responsive" data-ls-mobile="left: 100px;  top: 285px; font-size: 120px;" data-ls-tablet="left: 100px; top: 210px; font-size: 92px;" data-ls-laptop="left: 100px; top: 230px; font-size: 82px;" style=" left: 335px; top: 290px; font-size: 72px; font-weight: 700;" data-ls="delayin: 0; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">healthy life</h1>
+                <p class="ls-l text-title ls-responsive ls-hide-sm" data-ls-mobile="left: 100px; " data-ls-tablet=" left: 100px; top: 360px; font-size: 34px; width: 1000px; line-height: 52px;" data-ls-laptop="left: 100px; top: 380px; font-size: 26px; width: 800px; line-height: 48px;" style="left: 335px; top: 400px; width: 605px; font-size: 16px; font-weight: 400; white-space: normal; letter-spacing: 0.02em; line-height: 28px;" data-ls="delayin: 800; texttransitionin: true; textstartatin: transitioninstart; texttypein: lines_asc; textshiftin: 100; textoffsetyin: 100; textdurationin: 2000; offsetyout: 100; durationout: 2000; ">Conveniently drive go forward architectures with future-proof growth strategies. Energistically supply low-risk high-yield process improvements for mission-critical testing procedures</p>
+                <div class="ls-btn ls-l ls-hide-md" style="top: 50%; left: 75%;">
+                    <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video style3"><i class="fas fa-play"></i></a>
+                </div>
+                <div class="ls-btn ls-l ls-responsive" data-ls-mobile="left: 100px; " data-ls-tablet="left: 100px; top: 580px;" data-ls-laptop="left: 100px; top: 580px;" style=" left: 335px; top: 518px;" data-ls="offsetyin: 200; durationin: 2000; delayin: 1400; offsetyout: 300; durationout: 2000; offsetyout: 100; durationout: 2000; ">
                     <a href="service.html" class="vs-btn style2">View All Services<i class="fas fa-bolt"></i></a>
                 </div>
             </div>
-            <div class="ls-slide" data-ls="duration: 13000; transition2d: 5;">
-                <img src="assets/img/hero/h-bg-1-2.jpg" alt="Hero Image" class="ls-bg">
-                <p class="ls-l text-theme font-subtitle ls-responsive" data-ls-mobile="left: 100px; top: 80px;  font-size: 82px; " data-ls-tablet="left: 100px; top: 120px;  font-size: 62px; " data-ls-laptop="left: 100px; top: 120px;" style="left: 300px; top: 220px; font-size: 36px; font-weight: 400;" data-ls="delayin: 1000; texttransitionin: true; textstartatin: transitioninstart; texttypein: words_asc; textshiftin: 100; textoffsetyin: -100; textdurationin: 2000; offsetyout: -200; durationout: 2000; ">Our people and society</p>
-                <h1 class="text-title ls-l ls-responsive" data-ls-mobile="left: 100px; top: 230px;" data-ls-tablet="left: 100px; top: 230px;" data-ls-laptop="left: 100px; top: 180px;" style="left: 300px; top: 270px; font-size: 72px; font-weight: 700;" data-ls="delayin: 600; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">Best Treatment for</h1>
-                <h1 class="text-theme ls-l ls-responsive" data-ls-mobile="left: 100px; top: 340px;" data-ls-tablet="left: 100px; top: 340px;" data-ls-laptop="left: 100px; top: 270px;" style="left: 300px; top: 352px; font-size: 72px; font-weight: 700;" data-ls="delayin: 0; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">healthy life</h1>
-                <p class="ls-l ls-responsive ls-hide-md" data-ls-mobile="left: 100px; top: 400px;" data-ls-tablet="left: 100px; top: 400px;" data-ls-laptop="left: 100px; top: 400px; width: 805px; font-size: 24px; line-height: 42px;" style="left: 300px; top: 464px; width: 605px; font-size: 16px; font-weight: 400; white-space: normal; letter-spacing: 0.02em; line-height: 28px;" data-ls="delayin: 800; texttransitionin: true; textstartatin: transitioninstart; texttypein: lines_asc; textshiftin: 100; textoffsetyin: 100; textdurationin: 2000; offsetyout: 100; durationout: 2000; ">Conveniently drive go forward architectures with future-proof growth strategies. Energistically supply low-risk high-yield process improvements for mission-critical testing procedures</p>
-                <div class="ls-btn ls-l ls-responsive " data-ls-mobile="left: 100px; top: 500px;" data-ls-tablet="left: 100px; top: 500px;" data-ls-laptop="left: 100px;" style="left: 300px; top: 582px;" data-ls="offsetyin: 200; durationin: 2000; delayin: 1400; offsetyout: 300; durationout: 2000; durationout: 2000; ">
+            <div class="ls-slide" data-ls="duration: 113000; transition2d: 5;">
+                <img src="assets/img/hero/h-bg-2-3.jpg" alt="Hero Image" class="ls-bg">
+                <h1 class="text-title ls-l ls-responsive" data-ls-mobile="left: 100px; top: 120px; font-size: 120px;" data-ls-tablet="left: 100px; top: 80px; font-size: 92px;" data-ls-laptop="left: 100px; top: 120px; font-size: 82px;" style="left: 335px; top: 208px; font-size: 72px; font-weight: 700;" data-ls="delayin: 600; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">Best Medics, Doctors</h1>
+                <h1 class="text-theme ls-l ls-responsive" data-ls-mobile="left: 100px;  top: 285px; font-size: 120px;" data-ls-tablet="left: 100px; top: 210px; font-size: 92px;" data-ls-laptop="left: 100px; top: 230px; font-size: 82px;" style=" left: 335px; top: 290px; font-size: 72px; font-weight: 700;" data-ls="delayin: 0; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">and physicians</h1>
+                <p class="ls-l text-title ls-responsive ls-hide-sm" data-ls-mobile="left: 100px; " data-ls-tablet=" left: 100px; top: 360px; font-size: 34px; width: 1000px; line-height: 52px;" data-ls-laptop="left: 100px; top: 380px; font-size: 26px; width: 800px; line-height: 48px;" style="left: 335px; top: 400px; width: 605px; font-size: 16px; font-weight: 400; white-space: normal; letter-spacing: 0.02em; line-height: 28px;" data-ls="delayin: 800; texttransitionin: true; textstartatin: transitioninstart; texttypein: lines_asc; textshiftin: 100; textoffsetyin: 100; textdurationin: 2000; offsetyout: 100; durationout: 2000; ">Conveniently drive go forward architectures with future-proof growth strategies. Energistically supply low-risk high-yield process improvements for mission-critical testing procedures</p>
+                <div class="ls-btn ls-l ls-hide-md" style="top: 50%; left: 75%;">
+                    <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video style3"><i class="fas fa-play"></i></a>
+                </div>
+                <div class="ls-btn ls-l ls-responsive" data-ls-mobile="left: 100px; " data-ls-tablet="left: 100px; top: 580px;" data-ls-laptop="left: 100px; top: 580px;" style=" left: 335px; top: 518px;" data-ls="offsetyin: 200; durationin: 2000; delayin: 1400; offsetyout: 300; durationout: 2000; offsetyout: 100; durationout: 2000; ">
                     <a href="service.html" class="vs-btn style2">View All Services<i class="fas fa-bolt"></i></a>
                 </div>
             </div>
-            <div class="ls-slide" data-ls="duration: 13000; transition2d: 5;">
-                <img src="assets/img/hero/h-bg-1-3.jpg" alt="Hero Image" class="ls-bg">
-                <p class="ls-l text-theme font-subtitle ls-responsive" data-ls-mobile="left: 100px; top: 80px;  font-size: 82px; " data-ls-tablet="left: 100px; top: 120px;  font-size: 62px; " data-ls-laptop="left: 100px; top: 120px;" style="left: 300px; top: 220px; font-size: 36px; font-weight: 400;" data-ls="delayin: 1000; texttransitionin: true; textstartatin: transitioninstart; texttypein: words_asc; textshiftin: 100; textoffsetyin: -100; textdurationin: 2000; offsetyout: -200; durationout: 2000; ">Our people and society</p>
-                <h1 class="text-title ls-l ls-responsive" data-ls-mobile="left: 100px; top: 230px;" data-ls-tablet="left: 100px; top: 230px;" data-ls-laptop="left: 100px; top: 180px;" style="left: 300px; top: 270px; font-size: 72px; font-weight: 700;" data-ls="delayin: 600; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">Best Medics, Doctors</h1>
-                <h1 class="text-theme ls-l ls-responsive" data-ls-mobile="left: 100px; top: 340px;" data-ls-tablet="left: 100px; top: 340px;" data-ls-laptop="left: 100px; top: 270px;" style="left: 300px; top: 352px; font-size: 72px; font-weight: 700;" data-ls="delayin: 0; easingin: easeInOutSine; texttransitionin: true; textstartatin: transitioninstart; textdurationin: 2000; texttypein: words_asc; textshiftin: 200; textoffsetyin: -100; offsetyout: -100; durationout: 2000; ">and physicians</h1>
-                <p class="ls-l ls-responsive ls-hide-md" data-ls-mobile="left: 100px; top: 400px;" data-ls-tablet="left: 100px; top: 400px;" data-ls-laptop="left: 100px; top: 400px; width: 805px; font-size: 24px; line-height: 42px;" style="left: 300px; top: 464px; width: 605px; font-size: 16px; font-weight: 400; white-space: normal; letter-spacing: 0.02em; line-height: 28px;" data-ls="delayin: 800; texttransitionin: true; textstartatin: transitioninstart; texttypein: lines_asc; textshiftin: 100; textoffsetyin: 100; textdurationin: 2000; offsetyout: 100; durationout: 2000; ">Conveniently drive go forward architectures with future-proof growth strategies. Energistically supply low-risk high-yield process improvements for mission-critical testing procedures</p>
-                <div class="ls-btn ls-l ls-responsive " data-ls-mobile="left: 100px; top: 500px;" data-ls-tablet="left: 100px; top: 500px;" data-ls-laptop="left: 100px;" style="left: 300px; top: 582px;" data-ls="offsetyin: 200; durationin: 2000; delayin: 1400; offsetyout: 300; durationout: 2000; durationout: 2000; ">
-                    <a href="service.html" class="vs-btn style2">View All Services<i class="fas fa-bolt"></i></a>
+        </div>
+    </section>
+    <!--==============================
+    Service Area
+    ==============================-->
+    <section class="vs-service-wrapper space-top space-md-bottom" data-bg-src="assets/img/bg/bg-6.jpg">
+        <div class="container">
+            <div class="row  text-center justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="section-title">
+                        <div class="sec-icon">
+                            <i class="flaticon-ecg"></i>
+                        </div>
+                        <h2 class="h1 ">Top Tour Packages in Istanbul</h2>
+                        <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources istinctively impact proactive human</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row vs-carousel wow fadeIn" data-wow-delay="0.3s" data-slide-show="3">
+                <div class="col-xl-4 mb-25">
+                    <div class="service-box ">
+                        <div class="sr-img">
+                            <img src="assets/img/service/sr-2-1.jpg" alt="Service Image" class="w-100">
+                        </div>
+                        <div class="sr-icon">
+                            <i class="flaticon-computer-mouse"></i>
+                        </div>
+                        <div class="sr-content">
+                            <h3 class="h4"><a class="text-reset" href="service.html">Medical Advices & Checkup</a></h3>
+                            <p class="fs-xs">Continually evisculate goal-oriented portals rather than prospective channels. excellent customize life</p>
+                        </div>
+                        <a href="service.html" class="icon-btn style4"><i class="far fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xl-4 mb-25">
+                    <div class="service-box ">
+                        <div class="sr-img">
+                            <img src="assets/img/service/sr-2-2.jpg" alt="Service Image" class="w-100">
+                        </div>
+                        <div class="sr-icon">
+                            <i class="flaticon-blood-pressure"></i>
+                        </div>
+                        <div class="sr-content">
+                            <h3 class="h4"><a class="text-reset" href="service.html">Cardiovascular for Women's</a></h3>
+                            <p class="fs-xs">Continually evisculate goal-oriented portals rather than prospective channels. excellent customize life</p>
+                        </div>
+                        <a href="service.html" class="icon-btn style4"><i class="far fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xl-4 mb-25">
+                    <div class="service-box ">
+                        <div class="sr-img">
+                            <img src="assets/img/service/sr-2-3.jpg" alt="Service Image" class="w-100">
+                        </div>
+                        <div class="sr-icon">
+                            <i class="flaticon-stethoscope-1"></i>
+                        </div>
+                        <div class="sr-content">
+                            <h3 class="h4"><a class="text-reset" href="service.html">Heart Checkup or Cardiovascular</a></h3>
+                            <p class="fs-xs">Continually evisculate goal-oriented portals rather than prospective channels. excellent customize life</p>
+                        </div>
+                        <a href="service.html" class="icon-btn style4"><i class="far fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xl-4 mb-25">
+                    <div class="service-box ">
+                        <div class="sr-img">
+                            <img src="assets/img/service/sr-2-4.jpg" alt="Service Image" class="w-100">
+                        </div>
+                        <div class="sr-icon">
+                            <i class="flaticon-quality-of-life"></i>
+                        </div>
+                        <div class="sr-content">
+                            <h3 class="h4"><a class="text-reset" href="service.html">Laboratory & Pathology Drag</a></h3>
+                            <p class="fs-xs">Continually evisculate goal-oriented portals rather than prospective channels. excellent customize life</p>
+                        </div>
+                        <a href="service.html" class="icon-btn style4"><i class="far fa-long-arrow-alt-right"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -437,540 +353,516 @@
     <!--==============================
     About Area
     ==============================-->
-    <section class="vs-about-wrapper space" data-bg-src="assets/img/bg/bg-shape-1.jpg">
+    <section class="vs-about-wrapper position-relative space-top">
+        <div class="icon-shape3"><img src="assets/img/icons/icon-1-3.png" alt="Icon Image"></div>
         <div class="container">
-            <div class="row ">
-                <div class="col-lg-6 mb-30 mb-lg-0">
-                    <div class="about-img1 wow fadeInUp" data-wow-delay="0.3s">
-                        <img src="assets/img/about/about-1-1.png" alt="About Image" class="w-100">
-                        <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i class="fas fa-play"></i></a>
+            <div class="row flex-row-reverse">
+                <div class="col-lg-6 mb-40 mb-lg-0 ">
+                    <div class="about-img2 position-relative">
+                        <img src="assets/img/about/about-3-1.jpg" class="wow fadeIn" data-wow-delay="0.3s" alt="About Image">
+                        <div class="doctor-box position-absolute end-0 top-50 translate-middle-y wow fadeIn" data-wow-delay="0.3s">
+                            <span class="icon-btn style3"><i class="fal fa-user"></i></span>
+                            <p class="h6 mb-1">24 Hour Doctor</p>
+                            <p class="mb-0 fs-xs">Rredibly lever other's pandem tailers</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6 align-self-center">
-                    <div class="about-content ps-xl-5 ms-xl-2">
-                        <h2 class="h1 mt-n2 mb-3 pb-1">Surprise your body with <span class="text-theme">extra care..</span></h2>
-                        <p>Rapidiously evisculate user-centric functionalities for highly efficient nterfaces. Competently leverage other's scalable technology before synergistic manufactured products.</p>
-                        <div class="about-rating d-flex align-items-center">
-                            <img src="assets/img/bg/rating-shape-1.png" alt="Rating Shape" class="shape">
-                            <span class="total text-theme h2 mb-0 mr-20 font-body">4.9</span>
-                            <p class="rating-text mb-0"><span class="fw-bold text-decoration-underline text-title">Hospite Overall Rating,</span> based <br> on 8126 reviews.</p>
+                <div class="col-lg-6 align-self-center mb-20 mb-lg-0">
+                    <div class="about-content mb-50">
+                        <span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">Medical & General Care!</span>
+                        <h2 class="h1 mb-3">Get Amazing Treatment </h2>
+                        <div class="row">
+                            <div class="col-xl-10">
+                                <p class="mb-4">Rapidiously evisculate user-centric functionalities for highly efficient interfaces. Competently leverage other's scalable technology before synergistic manufactured products.</p>
+                            </div>
                         </div>
-                        <p class="fs-20 text-title fw-medium mb-1">Need help? Contact Us</p>
-                        <p class="about-call-text fw-bold h4 text-theme font-body mb-0"><a href="tel:62512516677">(625)-1251-6677</a> [or] <a href="mailto:info@example.com">info@example.com</a></p>
+                        <p class="fs-20 text-title fw-medium mb-1"><strong>Need help? Contact Us</strong></p>
+                        <p class="fw-bold h4 text-theme font-body mb-0 about-call-text"><a href="tel:62512516677">(625)-1251-6677</a> [or] <a href="mailto:info@example.com">info@example.com</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <div class="position-relative bg-box1">
-        <div class="bg-box-shape1 position-absolute " data-overlay="title" data-opacity="7" data-bg-src="assets/img/bg/bg-1.jpg"></div>
-        <div class="bg-box-shape2 position-absolute" data-bg-src="assets/img/bg/bg-shape-2.jpg"></div>
-        <!--==============================
-    Service Area
+    
+    <!--==============================
+    Accordion Area
     ==============================-->
-        <section class="vs-service-wrapper space">
-            <div class="container">
-                <div class="row  text-center justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="section-title">
-                            <span class="h3 sec-subtitle text-theme">Medical & General Care!</span>
-                            <h2 class="h1 text-white">Amazing Services</h2>
-                            <p class="text-white-light">Proactively revolutionize granular customer service after pandemic internal or "organic" sources istinctively impact proactive human</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row vs-carousel wow fadeInUp" data-wow-delay="0.3s" data-arrows="true" data-slide-show="3">
-                    <div class="col-xl-4">
-                        <div class="service-card mb-30">
-                            <div class="sr-body">
-                                <h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="service-details.html">Haematology</a></h3>
-                                <p class="sr-text fs-xs">Continually evisculate goal-oriented portals rather than prospective channels. Appropriately customize excellent imperatives for mission-critical products. </p>
+    <section class="vs-accordion-wrapper space">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 pb-10 pb-xl-0 mb-50 mb-xl-0">
+                    <div class="about-content">
+                        <span class="sec-subtitle text-theme h3 mb-0">Medical &amp; General Care!</span>
+                        <h2 class="h1 mb-3">We’re Here For You</h2>
+                        <!-- Tab Area -->
+                        <ul class="nav about-tab-nav mb-3 mb-xl-4 mt-xl-4 pb-3 pt-4" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link vs-btn active" id="menu1-tab" data-bs-toggle="tab" data-bs-target="#menu1" type="button" role="tab" aria-controls="menu1" aria-selected="true">100% Confidential</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link vs-btn" id="menu2-tab" data-bs-toggle="tab" data-bs-target="#menu2" type="button" role="tab" aria-controls="menu2" aria-selected="false">Full Satisfaction</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="aboutTab">
+                            <div class="tab-pane fade show active" id="menu1" role="tabpanel" aria-labelledby="menu1-tab">
+                                <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources. Distinctively impact proactive human capital rather than client-centered benefits. </p>
+                                <div class="row pt-3">
+                                    <div class="col-sm-auto mb-30 mb-md-0">
+                                        <img src="assets/img/about/ab-tab-1-1.jpg" alt="Tab Image">
+                                    </div>
+                                    <div class="col-sm-auto align-self-center">
+                                        <ul class="about-list list-unstyled text-title mb-0">
+                                            <li>Don't bother typing “lorem ipsum” </li>
+                                            <li>One brave soul did take a stab at</li>
+                                            <li>Here is the classic lorem passage</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="sr-icons">
-                                <a href="service-details.html" class="icon-btn style2"><i class="far fa-long-arrow-right"></i></a>
-                                <span class="sr-icon"><i class="flaticon-medical-symbol fa-4x"></i></span>
-                            </div>
-                            <div class="sr-img">
-                                <div class="position-absolute start-0 end-0 top-0"><img src="assets/img/bg/sr-shape.png" class="w-100" alt="Shape"></div>
-                                <img class="w-100" src="assets/img/service/sr-1-1.jpg" alt="Serivce Image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4">
-                        <div class="service-card mb-30">
-                            <div class="sr-body">
-                                <h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="service-details.html">Pediatrician</a></h3>
-                                <p class="sr-text fs-xs">Continually evisculate goal-oriented portals rather than prospective channels. Appropriately customize excellent imperatives for mission-critical products. </p>
-                            </div>
-                            <div class="sr-icons">
-                                <a href="service-details.html" class="icon-btn style2"><i class="far fa-long-arrow-right"></i></a>
-                                <span class="sr-icon"><i class="flaticon-healthcare fa-4x"></i></span>
-                            </div>
-                            <div class="sr-img">
-                                <div class="position-absolute start-0 end-0 top-0"><img src="assets/img/bg/sr-shape.png" class="w-100" alt="Shape"></div>
-                                <img class="w-100" src="assets/img/service/sr-1-2.jpg" alt="Serivce Image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4">
-                        <div class="service-card mb-30">
-                            <div class="sr-body">
-                                <h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="service-details.html">Cardiologist</a></h3>
-                                <p class="sr-text fs-xs">Continually evisculate goal-oriented portals rather than prospective channels. Appropriately customize excellent imperatives for mission-critical products. </p>
-                            </div>
-                            <div class="sr-icons">
-                                <a href="service-details.html" class="icon-btn style2"><i class="far fa-long-arrow-right"></i></a>
-                                <span class="sr-icon"><i class="flaticon-group fa-4x"></i></span>
-                            </div>
-                            <div class="sr-img">
-                                <div class="position-absolute start-0 end-0 top-0"><img src="assets/img/bg/sr-shape.png" class="w-100" alt="Shape"></div>
-                                <img class="w-100" src="assets/img/service/sr-1-3.jpg" alt="Serivce Image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4">
-                        <div class="service-card mb-30">
-                            <div class="sr-body">
-                                <h3 class="h4 sr-title mb-2 mb-md-4"><a class="text-reset" href="service-details.html">Dermatologist</a></h3>
-                                <p class="sr-text fs-xs">Continually evisculate goal-oriented portals rather than prospective channels. Appropriately customize excellent imperatives for mission-critical products. </p>
-                            </div>
-                            <div class="sr-icons">
-                                <a href="service-details.html" class="icon-btn style2"><i class="far fa-long-arrow-right"></i></a>
-                                <span class="sr-icon"><i class="flaticon-discuss fa-4x"></i></span>
-                            </div>
-                            <div class="sr-img">
-                                <div class="position-absolute start-0 end-0 top-0"><img src="assets/img/bg/sr-shape.png" class="w-100" alt="Shape"></div>
-                                <img class="w-100" src="assets/img/service/sr-1-4.jpg" alt="Serivce Image">
+                            <div class="tab-pane fade" id="menu2" role="tabpanel" aria-labelledby="menu2-tab">
+                                <p>Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum frequency with which letters occur in English, which is why </p>
+                                <div class="row pt-3">
+                                    <div class="col-auto mb-30 mb-md-0">
+                                        <img src="assets/img/about/ab-tab-1-2.jpg" alt="Tab Image">
+                                    </div>
+                                    <div class="col-auto align-self-center">
+                                        <ul class="about-list list-unstyled text-title mb-0">
+                                            <li>In particular, the garbled words of </li>
+                                            <li>McClintock's eye for detail certainly </li>
+                                            <li>Creation timelines for the standard</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center justify-content-lg-between align-items-center pt-30 no-pt-sm">
-                    <div class="col-auto mb-30 mb-lg-0">
-                        <div class="notice-bar fs-xs bg-white text-center">
-                            <p><i class="fal fa-exclamation-circle text-theme me-2"></i> Delivering tomorrow’s health care for your family. <a href="team.html"><strong>View Doctor’s Timetable</strong><i class="far fa-long-arrow-right ms-2"></i></a></p>
+                <div class="col-xl-6">
+                    <div class="vs-accordion accordion" id="vsaccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                    Uniquely optimize reliable models before wireless results ofessionally impact progressive core.
+                                </button>
+                            </h2>
+                            <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#vsaccordion">
+                                <div class="accordion-body">
+                                    <p>Professionally impact distributed data via value-added experiences. Proacti incentivize 24/365 applications whereas turnkey total linkage. whiteboard multifunctional channels with interoperable value.</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-auto">
-                        <a href="appointment.html" class="vs-btn style2">Make Appointment<i class="far fa-calendar-alt"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--==============================
-    About Area
-    ==============================-->
-        <section class="vs-about-wrapper space-md-bottom">
-            <div class="container">
-                <div class="row flex-row-reverse">
-                    <div class="col-xl-5 col-xxl-6 mb-30">
-                        <div class="about-image wow fadeIn" data-wow-delay="0.3s">
-                            <img src="assets/img/about/about-2-1.png" alt="About Image">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for
+                                </button>
+                            </h2>
+                            <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#vsaccordion">
+                                <div class="accordion-body">
+                                    <p>Professionally impact distributed data via value-added experiences. Proacti incentivize 24/365 applications whereas turnkey total linkage. whiteboard multifunctional channels with interoperable value.</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-xl-7 col-xxl-6 align-self-center">
-                        <span class="h3 text-theme sec-subtitle mb-2 mb-md-0">7 Star Care & Protection</span>
-                        <h2 class="h1">We love your loved ones</h2>
-                        <p class="pe-xl-5">Proactively revolutionize granular customer service after pandemic internal or "organic" sources. Distinctively impact proactive human capital rather than client-centered benefits. </p>
-                        <div class="row pt-3">
-                            <div class="col-sm-6 col-lg-5 col-xl-6">
-                                <div class="d-flex mb-25">
-                                    <span class="text-theme mr-20"><i class="flaticon-security fa-3x lh-1"></i></span>
-                                    <div class="media-body">
-                                        <h3 class="h5 mb-2 pb-1">100% Safe & Trused</h3>
-                                        <p class="mb-0 fs-xs">Professional web-readiness via ubiquitous human capital.</p>
-                                    </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                    From its medieval origins to the digital era, learn everything there is to know about the ubiquitous
+                                </button>
+                            </h2>
+                            <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#vsaccordion">
+                                <div class="accordion-body">
+                                    <p>Professionally impact distributed data via value-added experiences. Proacti incentivize 24/365 applications whereas turnkey total linkage. whiteboard multifunctional channels with interoperable value.</p>
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-lg-5 col-xl-6">
-                                <div class="d-flex mb-25">
-                                    <span class="text-theme mr-20"><i class="flaticon-computer-mouse fa-3x lh-1"></i></span>
-                                    <div class="media-body">
-                                        <h3 class="h5 mb-2 pb-1">Specialist Surgery </h3>
-                                        <p class="mb-0 fs-xs">Professional web-readiness via ubiquitous human capital.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-5 col-xl-6">
-                                <div class="d-flex mb-25">
-                                    <span class="text-theme mr-20"><i class="flaticon-healthcare fa-3x lh-1"></i></span>
-                                    <div class="media-body">
-                                        <h3 class="h5 mb-2 pb-1">24/7 take care staff</h3>
-                                        <p class="mb-0 fs-xs">Professional web-readiness via ubiquitous human capital.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-5 col-xl-6">
-                                <div class="d-flex mb-25">
-                                    <span class="text-theme mr-20"><i class="flaticon-laboratory-equipment fa-3x lh-1"></i></span>
-                                    <div class="media-body">
-                                        <h3 class="h5 mb-2 pb-1">Medicine service</h3>
-                                        <p class="mb-0 fs-xs">Professional web-readiness via ubiquitous human capital.</p>
-                                    </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                    Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text De Finibus
+                                </button>
+                            </h2>
+                            <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#vsaccordion">
+                                <div class="accordion-body">
+                                    <p>Professionally impact distributed data via value-added experiences. Proacti incentivize 24/365 applications whereas turnkey total linkage. whiteboard multifunctional channels with interoperable value.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-    </div>
+        </div>
+    </section><!-- Middle Box Area -->
+    <section class="vs-middle-box-wrapper middle-box-layout1  " data-sec-pos="bottom-half" data-pos-for="#team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xl-6 mb-30 mb-lg-0 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="vs-middle-box d-md-flex text-center text-md-start bg-theme">
+                        <div class="media-icon mb-20 mb-md-0 mr-20">
+                            <img src="assets/img/icons/icon-1-4.png" alt="Icon">
+                        </div>
+                        <div class="media-body align-self-center">
+                            <span class="text-white fs-xs">Health Services</span>
+                            <h4 class="text-white mb-0">Health Services & Medical Facilities</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="vs-middle-box d-md-flex text-center text-md-start" data-bg-color="#cdf8ff">
+                        <div class="media-icon mb-20 mb-md-0 mr-20">
+                            <img src="assets/img/icons/icon-1-2.png" alt="Icon">
+                        </div>
+                        <div class="media-body align-self-center">
+                            <span class="text-theme fs-xs">Relax Mind</span>
+                            <h4 class="text-title mb-0">Known the truth for Peace of Mind</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--==============================
     Team Area
     ==============================-->
-    <section class="vs-team-wrapper space-top space-md-bottom" data-bg-src="assets/img/bg/bg-2.jpg">
+    <section class="vs-team-wrapper team-layout2 space" id="team">
+        <div class="parallax" data-parallax-image="assets/img/bg/bg-shape-5.jpg"></div>
         <div class="container">
-            <div class="row  text-center justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="section-title">
-                        <span class="h3 text-theme sec-subtitle">Medical & General Care!</span>
-                        <h2 class="h1">Meet Our Doctors</h2>
-                        <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources istinctively impact proactive human</p>
+            <div class="row gx-30 justify-content-center">
+                <div class="col-md-9 col-lg-7 col-xl-5 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="section-title mb-xl-4 text-center  text-xl-start">
+                        <h2 class="h1 text-white">Experts Doctors</h2>
+                        <p class="text-white mb-35">Proactively revolutionize granular customer service after pandemic internal or "organic" sources proactive human capital rather.</p>
+                        <a href="appointment.html" class="vs-btn style2 hover-white">Make Appointment<i class="far fa-calendar-alt"></i></a>
+                    </div>
+                </div>
+                <div class="col-xl-1"></div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="team-box mb-30">
+                        <div class="team-img">
+                            <a href="team-details.html"><img src="assets/img/team/t-2-1.jpg" class="w-100" alt=""></a>
+                        </div>
+                        <div class="team-content bg-theme">
+                            <h3 class="name h4 text-white mb-0"><a class="text-reset" href="team-details.html">David Smith</a></h3>
+                            <span class="degi fs-sm text-white">Specialist</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="team-box mb-30">
+                        <div class="team-img">
+                            <a href="team-details.html"><img src="assets/img/team/t-2-2.jpg" class="w-100" alt=""></a>
+                        </div>
+                        <div class="team-content bg-theme">
+                            <h3 class="name h4 text-white mb-0"><a class="text-reset" href="team-details.html">Vivi Marian</a></h3>
+                            <span class="degi fs-sm text-white">Osteopathic</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="team-box mb-30">
+                        <div class="team-img">
+                            <a href="team-details.html"><img src="assets/img/team/t-2-3.jpg" class="w-100" alt=""></a>
+                        </div>
+                        <div class="team-content bg-theme">
+                            <h3 class="name h4 text-white mb-0"><a class="text-reset" href="team-details.html">Farhan Moris</a></h3>
+                            <span class="degi fs-sm text-white">Pediatrician</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="team-box mb-30">
+                        <div class="team-img">
+                            <a href="team-details.html"><img src="assets/img/team/t-2-4.jpg" class="w-100" alt=""></a>
+                        </div>
+                        <div class="team-content bg-theme">
+                            <h3 class="name h4 text-white mb-0"><a class="text-reset" href="team-details.html">Jerzzy Lamot</a></h3>
+                            <span class="degi fs-sm text-white">Surgeon</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="team-box mb-30">
+                        <div class="team-img">
+                            <a href="team-details.html"><img src="assets/img/team/t-2-5.jpg" class="w-100" alt=""></a>
+                        </div>
+                        <div class="team-content bg-theme">
+                            <h3 class="name h4 text-white mb-0"><a class="text-reset" href="team-details.html">Peter Parker</a></h3>
+                            <span class="degi fs-sm text-white">Osteopathic</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="team-box mb-30">
+                        <div class="team-img">
+                            <a href="team-details.html"><img src="assets/img/team/t-2-6.jpg" class="w-100" alt=""></a>
+                        </div>
+                        <div class="team-content bg-theme">
+                            <h3 class="name h4 text-white mb-0"><a class="text-reset" href="team-details.html">Mors Jons</a></h3>
+                            <span class="degi fs-sm text-white">Surgeon</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row vs-carousel wow fadeIn" data-wow-delay="0.3s" data-arrows="true" data-slide-show="3" data-lg-slide-show="2">
-                <div class="col-xl-4 mb-30">
-                    <div class="team-card">
-                        <div class="team-head">
-                            <img src="assets/img/team/t-1-1.png" alt="Team Area" class="w-100">
-                            <div class="team-card-links">
-                                <a class="team-links-toggler" href="#"><i class="fas fa-share-alt"></i></a>
-                                <div class="team-social">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fas fa-basketball-ball"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-body">
-                            <h3 class="h4 mb-0"><a href="team-details.html" class="text-reset">David Smith</a></h3>
-                            <p class="fs-xs degi text-theme mb-2"><strong>Specialist</strong></p>
-                            <p class="fs-xs">Conceptualize user-centric web-readiness via economically sound e-services. Interactively coordinate next-generation </p>
-                            <div class="">
-                                <p class="fs-xs team-info"><i class="fas fa-phone text-theme"></i><a class="text-reset" href="tel:+592201520156">+592 2015 20156</a></p>
-                                <p class="fs-xs team-info"><i class="fas fa-envelope text-theme"></i><a class="text-reset" href="mailto:info.example@mail.com">info.example@mail.com</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 mb-30">
-                    <div class="team-card">
-                        <div class="team-head">
-                            <img src="assets/img/team/t-1-2.png" alt="Team Area" class="w-100">
-                            <div class="team-card-links">
-                                <a class="team-links-toggler" href="#"><i class="fas fa-share-alt"></i></a>
-                                <div class="team-social">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fas fa-basketball-ball"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-body">
-                            <h3 class="h4 mb-0"><a href="team-details.html" class="text-reset">Vivi Marian</a></h3>
-                            <p class="fs-xs degi text-theme mb-2"><strong>Osteopathic</strong></p>
-                            <p class="fs-xs">Conceptualize user-centric web-readiness via economically sound e-services. Interactively coordinate next-generation </p>
-                            <div class="">
-                                <p class="fs-xs team-info"><i class="fas fa-phone text-theme"></i><a class="text-reset" href="tel:+592201520156">+592 2015 20156</a></p>
-                                <p class="fs-xs team-info"><i class="fas fa-envelope text-theme"></i><a class="text-reset" href="mailto:info.example@mail.com">info.example@mail.com</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 mb-30">
-                    <div class="team-card">
-                        <div class="team-head">
-                            <img src="assets/img/team/t-1-3.png" alt="Team Area" class="w-100">
-                            <div class="team-card-links">
-                                <a class="team-links-toggler" href="#"><i class="fas fa-share-alt"></i></a>
-                                <div class="team-social">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fas fa-basketball-ball"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-body">
-                            <h3 class="h4 mb-0"><a href="team-details.html" class="text-reset">Farhan Moris</a></h3>
-                            <p class="fs-xs degi text-theme mb-2"><strong>Pediatrician</strong></p>
-                            <p class="fs-xs">Conceptualize user-centric web-readiness via economically sound e-services. Interactively coordinate next-generation </p>
-                            <div class="">
-                                <p class="fs-xs team-info"><i class="fas fa-phone text-theme"></i><a class="text-reset" href="tel:+592201520156">+592 2015 20156</a></p>
-                                <p class="fs-xs team-info"><i class="fas fa-envelope text-theme"></i><a class="text-reset" href="mailto:info.example@mail.com">info.example@mail.com</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 mb-30">
-                    <div class="team-card">
-                        <div class="team-head">
-                            <img src="assets/img/team/t-1-4.png" alt="Team Area" class="w-100">
-                            <div class="team-card-links">
-                                <a class="team-links-toggler" href="#"><i class="fas fa-share-alt"></i></a>
-                                <div class="team-social">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fas fa-basketball-ball"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-body">
-                            <h3 class="h4 mb-0"><a href="team-details.html" class="text-reset">Jerzzy Lamot</a></h3>
-                            <p class="fs-xs degi text-theme mb-2"><strong>Surgeon</strong></p>
-                            <p class="fs-xs">Conceptualize user-centric web-readiness via economically sound e-services. Interactively coordinate next-generation </p>
-                            <div class="">
-                                <p class="fs-xs team-info"><i class="fas fa-phone text-theme"></i><a class="text-reset" href="tel:+592201520156">+592 2015 20156</a></p>
-                                <p class="fs-xs team-info"><i class="fas fa-envelope text-theme"></i><a class="text-reset" href="mailto:info.example@mail.com">info.example@mail.com</a></p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="text-center">
+                <div class="notice-bar fs-xs bg-white mt-30 text-center">
+                    <p class="text-title"><i class="fal fa-exclamation-circle text-theme me-2"></i> Delivering tomorrow’s health care for your family. <a href="contact.html"><strong>View Doctor’s Timetable</strong><i class="far fa-long-arrow-right ms-2"></i></a></p>
                 </div>
             </div>
         </div>
     </section>
-    <div class="bg-box2 position-relative">
-        <div class="bg-box-shape3 z-index-n1 position-absolute">
-            <div class="parallax" data-parallax-image="assets/img/bg/bg-3.jpg"></div>
-        </div>
-        <!--==============================
-    Skill Area
-    ==============================-->
-        <section class="vs-skill-wrapper  ">
-            <div class="container">
-                <div class="skill-wrap1 bg-white">
-                    <div class="row justify-content-center justify-content-lg-between">
-                        <div class="col-md-6 col-lg-auto  mb-30">
-                            <div class="d-xl-flex text-center text-xl-start skill-box">
-                                <span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20"><i class="flaticon-discuss"></i></span>
-                                <div class="media-body">
-                                    <h2 class="mt-n2 mb-0">30+</h2>
-                                    <p class="text-title fs-xs fw-medium mt-1 mt-xl-0 mb-2 mb-xl-3 pb-1">Years Of Experience</p>
-                                    <p class="fs-xs mb-0">Incubate extensive scenarios without top-line quality vectors. Authoritatively engage</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-auto  mb-30">
-                            <div class="d-xl-flex text-center text-xl-start skill-box">
-                                <span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20"><i class="flaticon-medical-equipment"></i></span>
-                                <div class="media-body">
-                                    <h2 class="mt-n2 mb-0">100+</h2>
-                                    <p class="text-title fs-xs fw-medium mt-1 mt-xl-0 mb-2 mb-xl-3 pb-1">Experienced Doctor's</p>
-                                    <p class="fs-xs mb-0">Incubate extensive scenarios without top-line quality vectors. Authoritatively engage</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-auto  mb-30">
-                            <div class="d-xl-flex text-center text-xl-start skill-box">
-                                <span class="ripple-icon align-self-start mb-20 mb-xl-0 mr-20"><i class="flaticon-healthcare"></i></span>
-                                <div class="media-body">
-                                    <h2 class="mt-n2 mb-0">200+</h2>
-                                    <p class="text-title fs-xs fw-medium mt-1 mt-xl-0 mb-2 mb-xl-3 pb-1">Happy Patients</p>
-                                    <p class="fs-xs mb-0">Incubate extensive scenarios without top-line quality vectors. Authoritatively engage</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--==============================
+    <!--==============================
     Appointment Form Area 
     ==============================-->
-        <section class="appointment-wrapper space-top space-bottom">
-            <div class="container">
-                <div class="row gx-0">
-                    <div class="col-xl-6 align-self-end">
-                        <div class="about-box1 bg-white">
-                            <h2 class="h1 mb-3 pb-1">You will not regret <span class="text-theme">believing in us.</span></h2>
-                            <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources. Distinctively impact proactive human capital rather than client-centered benefits. </p>
-                            <div class="row pt-2 mt-3">
-                                <div class="col-md-5 col-lg-4 col-xl-5">
-                                    <ul class="about-list list-unstyled text-title mb-4 pb-1">
-                                        <li>Blood Bank</li>
-                                        <li>Medical Care</li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-5 col-lg-4 col-xl-5">
-                                    <ul class="about-list list-unstyled text-title mb-4 pb-1">
-                                        <li>Heart Transplant</li>
-                                        <li>General Surgery</li>
-                                    </ul>
-                                </div>
+    <section class="appointment-wrapper space-top space-md-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 mb-30">
+                    <div class="about-content">
+                        <span class="sec-subtitle text-theme h3 mb-2 mb-sm-0">Medical &amp; General Care!</span>
+                        <h2 class="h1 mb-3">We’re Here For You</h2>
+                        <div class="row">
+                            <div class="col-xl-10 mb-md-2 pb-md-1">
+                                <p class="mb-md-4">Proactively revolutionize granular customer service after pandemic internal or "organic" sources. Distinctively impact proactive human capital rather than client-centered benefits. </p>
                             </div>
-                            <div class="d-flex author-box align-items-center">
-                                <div class="avater-small mr-20">
-                                    <img src="assets/img/author/author-1-1.png" alt="Author Image">
+                            <div class="col-md-6 col-lg-5 col-xl-6">
+                                <ul class="vs-list list-unstyled text-title">
+                                    <li>99% success rate solving cases</li>
+                                    <li>100% Confidential</li>
+                                    <li>Affordable Fees</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-lg-5 col-xl-6">
+                                <ul class="vs-list list-unstyled text-title">
+                                    <li>Free Consultation</li>
+                                    <li>Expert surveillance agents</li>
+                                    <li>Over 50 years experience</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <ul class="offer-counter counter-list list-unstyled text-theme pt-xl-3 mt-3" data-offer-date="12/08/2021">
+                            <li>
+                                <div class="day count-number ">00</div>
+                                <span class="count-name  fs-md">Days</span>
+                            </li>
+                            <li>
+                                <div class="hour count-number ">00</div>
+                                <span class="count-name  fs-md">Hours</span>
+                            </li>
+                            <li>
+                                <div class="minute count-number ">00</div>
+                                <span class="count-name  fs-md">Minutes</span>
+                            </li>
+                        </ul>
+                        <div class="vs-code-box mt-20">
+                            Use Code: <span class="text-theme">Native</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 mb-30 pt-30 pt-md-0">
+                    <form action="#" class="form-wrap1 bg-white wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="form-title-box bg-title">
+                            <div class="row justify-content-between align-items-center">
+                                <div class="col-auto">
+                                    <h2 class="h4 mb-1 text-white">Book An Appointment</h2>
+                                    <p class="mb-0 text-white-light">Please Call Us To Ensure</p>
                                 </div>
-                                <div class="media-body">
-                                    <h4 class="name h5 text-uppercase mb-0">David Smith</h4>
-                                    <span class="fs-xs text-theme lh-1">Consultant</span>
+                                <div class="col-auto d-none d-sm-block">
+                                    <a href="tel:0088123456789" class="ripple-icon style2"><i class="fas fa-phone"></i></a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <form action="#" class="form-wrap1 bg-white">
-                            <div class="form-title-box bg-title" data-bg-src="assets/img/bg/bg-shape-11.jpg">
-                                <div class="row justify-content-between align-items-center">
-                                    <div class="col-auto">
-                                        <h2 class="h4 mb-1 text-white">Book An Appointment</h2>
-                                        <p class="mb-0 text-white-light">Please Call Us To Ensure</p>
-                                    </div>
-                                    <div class="col-auto d-none d-sm-block">
-                                        <a href="tel:0088123456789" class="ripple-icon style2"><i class="fas fa-phone"></i></a>
-                                    </div>
+                        <div class="form-box">
+                            <div class="row">
+                                <div class="col-xl-6 form-group">
+                                    <select class="form-select style2">
+                                        <option hidden disabled selected>Select Services</option>
+                                        <option>Aerospace Medicine</option>
+                                        <option>Bariatric Surgery</option>
+                                        <option>Infectious Diseases</option>
+                                        <option>Laboratory Medicine</option>
+                                    </select>
+                                </div>
+                                <div class="col-xl-6 form-group">
+                                    <select class="form-select style2">
+                                        <option hidden disabled selected>Choose Doctor</option>
+                                        <option>Aerospace Medicine</option>
+                                        <option>Bariatric Surgery</option>
+                                        <option>Infectious Diseases</option>
+                                        <option>Laboratory Medicine</option>
+                                    </select>
+                                </div>
+                                <div class="col-xl-6 form-group">
+                                    <input type="text" class="form-control  style2" placeholder="Your Name">
+                                    <i class="fal small fa-user"></i>
+                                </div>
+                                <div class="col-xl-6 form-group">
+                                    <input type="email" class="form-control  style2" placeholder="Email Address">
+                                    <i class="fal small fa-envelope"></i>
+                                </div>
+                                <div class="col-xl-6 form-group">
+                                    <input type="number" class="form-control  style2" placeholder="Your Phone">
+                                    <i class="fal small fa-phone"></i>
+                                </div>
+                                <div class="col-xl-6 form-group">
+                                    <input type="text" class="dateTime-pick form-control  style2" placeholder="Select Date & Time">
+                                    <i class="fal small fa-calendar-alt"></i>
+                                </div>
+                                <div class="col-xl-12 text-center">
+                                    <button type="submit" class="vs-btn style2">Make Appointment<i class="far fa-calendar-alt"></i></button>
                                 </div>
                             </div>
-                            <div class="form-box">
-                                <div class="row">
-                                    <div class="col-xl-6 form-group">
-                                        <select class="form-select style2">
-                                            <option hidden disabled selected>Select Services</option>
-                                            <option>Aerospace Medicine</option>
-                                            <option>Bariatric Surgery</option>
-                                            <option>Infectious Diseases</option>
-                                            <option>Laboratory Medicine</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-xl-6 form-group">
-                                        <select class="form-select style2">
-                                            <option hidden disabled selected>Choose Doctor</option>
-                                            <option>Aerospace Medicine</option>
-                                            <option>Bariatric Surgery</option>
-                                            <option>Infectious Diseases</option>
-                                            <option>Laboratory Medicine</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-xl-6 form-group">
-                                        <input type="text" class="form-control  style2" placeholder="Your Name">
-                                        <i class="fal small fa-user"></i>
-                                    </div>
-                                    <div class="col-xl-6 form-group">
-                                        <input type="email" class="form-control  style2" placeholder="Email Address">
-                                        <i class="fal small fa-envelope"></i>
-                                    </div>
-                                    <div class="col-xl-6 form-group">
-                                        <input type="number" class="form-control  style2" placeholder="Your Phone">
-                                        <i class="fal small fa-phone"></i>
-                                    </div>
-                                    <div class="col-xl-6 form-group">
-                                        <input type="text" class="dateTime-pick form-control  style2" placeholder="Select Date & Time">
-                                        <i class="fal small fa-calendar-alt"></i>
-                                    </div>
-                                    <div class="col-xl-12 text-center">
-                                        <button type="submit" class="vs-btn style2">Make Appointment<i class="far fa-calendar-alt"></i></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+                        </div>
+                    </form>
                 </div>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
     <!--==============================
     Testimonial Area
     ==============================-->
-    <section class="testimonial-wrapper space-top">
-        <div class="parallax" data-parallax-image="assets/img/bg/bg-shape-3.jpg"></div>
-        <div class="container position-relative z-index-common">
-            <div class="row  text-center justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="section-title">
-                        <span class="h3 text-theme sec-subtitle">Testimonial</span>
-                        <h2 class="h1">Our Patient Says</h2>
-                        <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources istinctively impact proactive human</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-xl-10 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="row vs-carousel" data-slide-show="2">
-                        <div class="col-xl-6">
-                            <div class="testimonial-box mb-30 bg-white">
-                                <div class="content">
-                                    <p class="fs-md">Uniquely strategize 2.0 portals after fully researched vortals. Quickly repurpose front-end metrics through</p>
-                                </div>
-                                <div class="author-img">
-                                    <div class="avater-line"></div>
-                                    <div class="avater">
-                                        <img src="assets/img/author/author-2-1.jpg" alt="Author Image">
-                                    </div>
-                                </div>
-                                <div class="author-info">
-                                    <div class="info">
-                                        <h3 class="fs-20 name">Moris Jonson</h3>
-                                        <span class="fs-xs degi text-theme">CEO, Hosak Int. Ltd.</span>
-                                    </div>
-                                    <div class="testi-rating">
-                                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6">
-                            <div class="testimonial-box mb-30 bg-white">
-                                <div class="content">
-                                    <p class="fs-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-                                </div>
-                                <div class="author-img">
-                                    <div class="avater-line"></div>
-                                    <div class="avater">
-                                        <img src="assets/img/author/author-2-2.jpg" alt="Author Image">
-                                    </div>
-                                </div>
-                                <div class="author-info">
-                                    <div class="info">
-                                        <h3 class="fs-20 name">Peter Parker</h3>
-                                        <span class="fs-xs degi text-theme">HR, Tech Master Ltd.</span>
-                                    </div>
-                                    <div class="testi-rating">
-                                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6">
-                            <div class="testimonial-box mb-30 bg-white">
-                                <div class="content">
-                                    <p class="fs-md">From its medieval origins to the digital era, learn everything there is to know about ubiquitous ipsum passage </p>
-                                </div>
-                                <div class="author-img">
-                                    <div class="avater-line"></div>
-                                    <div class="avater">
-                                        <img src="assets/img/author/author-2-3.jpg" alt="Author Image">
-                                    </div>
-                                </div>
-                                <div class="author-info">
-                                    <div class="info">
-                                        <h3 class="fs-20 name">David Smith</h3>
-                                        <span class="fs-xs degi text-theme">Founder, Ajaira LTD.</span>
-                                    </div>
-                                    <div class="testi-rating">
-                                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="testi-shape-img text-center mt-n5 wow fadeInUp" data-wow-delay="0.3s">
-            <img src="assets/img/bg/bg-4.png" alt="Image">
-        </div>
-    </section>
-    <!--==============================
-    Blog Area
-    ==============================-->
-    <section class="vs-blog-wrapper space">
+    <section class="testimonial-wrapper space-top space-md-bottom">
+        <div class="parallax" data-parallax-image="assets/img/bg/bg-shape-6.jpg"></div>
         <div class="container">
             <div class="row  text-center justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="section-title">
-                        <span class="h3 text-theme sec-subtitle">Updates News</span>
-                        <h2 class="h1">Latest Posts</h2>
+                        <div class="sec-icon">
+                            <i class="flaticon-ecg"></i>
+                        </div>
+                        <h2 class="h1 ">Our Patient Says</h2>
+                        <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources istinctively impact proactive human</p>
+                    </div>
+                </div>
+            </div>
+            <div class="position-relative">
+                <div class="d-none d-md-block bg-top-right position-absolute start-0 top-0 w-100 h-100" data-bg-src="assets/img/bg/testimonial-shape-1.png"></div>
+                <div class="row gx-30 mb-30 mb-lg-0">
+                    <div class="col-md-5 col-lg-4 col-xl-3 z-index-common">
+                        <div class="avater-slider-box vs-carousel" data-slide-show="1" data-md-slide-show="1" data-fade="true" data-asnavfor=".testimonail-desc-slide">
+                            <div class="avater-slider">
+                                <div class="avater">
+                                    <img src="assets/img/author/author-3-1.jpg" alt="Author Image">
+                                </div>
+                                <h3 class="mb-0 h4 font-body">Mr. David Smith</h3>
+                                <span class="fs-xs">Customer</span>
+                            </div>
+                            <div class="avater-slider">
+                                <div class="avater">
+                                    <img src="assets/img/author/author-3-2.jpg" alt="Author Image">
+                                </div>
+                                <h3 class="mb-0 h4 font-body">Mr. Jons Smith</h3>
+                                <span class="fs-xs">Member</span>
+                            </div>
+                            <div class="avater-slider">
+                                <div class="avater">
+                                    <img src="assets/img/author/author-3-3.jpg" alt="Author Image">
+                                </div>
+                                <h3 class="mb-0 h4 font-body">Jerzzy Lamot</h3>
+                                <span class="fs-xs">Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-lg-8 col-xl-8 align-self-center">
+                        <div class="pl-30 no-pl-md mt-2 mt-md-0 position-relative">
+                            <div class="testimonail-quote"><img src="assets/img/bg/quote-icon.png" alt="quote"></div>
+                            <div class="vs-carousel testimonail-desc-slide text-center text-md-start" data-dots="true" data-slide-show="1" data-md-slide-show="1" data-asnavfor=".avater-slider-box">
+                                <div class="testimonail-desc">
+                                    <div class="testi-rating">
+                                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
+                                    </div>
+                                    <p class="mb-0 testi-text">Objectively unleash resource maximizing networks vis-a-vis parallel services. Continually parallel task real-time users without global sources. Credibly provide access to parallel resources whereas worldwide. </p>
+                                </div>
+                                <div class="testimonail-desc">
+                                    <div class="testi-rating">
+                                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
+                                    </div>
+                                    <p class="mb-0 testi-text">OLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla aliquet. </p>
+                                </div>
+                                <div class="testimonail-desc">
+                                    <div class="testi-rating">
+                                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
+                                    </div>
+                                    <p class="mb-0 testi-text">Nick Richardson described the translation “like extreme Mallarmé, or a Burroughsian cut-up, or a paragraph of Finnegans Wake. Bits of it have surprising power: the desperate insistence on loving hitch and, an </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==============================
+    Brand Area
+    ==============================-->
+    <div class="vs-brand-wrapper  " data-sec-pos="top-half" data-pos-for=".testimonial-wrapper">
+        <div class="container">
+            <div class="brand-wrap2 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="row vs-carousel" data-slide-show="5" data-lg-slide-show="4" data-md-slide-show="3" data-sm-slide-show="3" data-xs-slide-show="1">
+                    <div class="col-auto text-center">
+                        <div class="brand">
+                            <img src="assets/img/brand/brand-1-1.png" alt="Brand Image">
+                        </div>
+                    </div>
+                    <div class="col-auto text-center">
+                        <div class="brand">
+                            <img src="assets/img/brand/brand-1-2.png" alt="Brand Image">
+                        </div>
+                    </div>
+                    <div class="col-auto text-center">
+                        <div class="brand">
+                            <img src="assets/img/brand/brand-1-3.png" alt="Brand Image">
+                        </div>
+                    </div>
+                    <div class="col-auto text-center">
+                        <div class="brand">
+                            <img src="assets/img/brand/brand-1-4.png" alt="Brand Image">
+                        </div>
+                    </div>
+                    <div class="col-auto text-center">
+                        <div class="brand">
+                            <img src="assets/img/brand/brand-1-5.png" alt="Brand Image">
+                        </div>
+                    </div>
+                    <div class="col-auto text-center">
+                        <div class="brand">
+                            <img src="assets/img/brand/brand-1-1.png" alt="Brand Image">
+                        </div>
+                    </div>
+                    <div class="col-auto text-center">
+                        <div class="brand">
+                            <img src="assets/img/brand/brand-1-2.png" alt="Brand Image">
+                        </div>
+                    </div>
+                    <div class="col-auto text-center">
+                        <div class="brand">
+                            <img src="assets/img/brand/brand-1-3.png" alt="Brand Image">
+                        </div>
+                    </div>
+                    <div class="col-auto text-center">
+                        <div class="brand">
+                            <img src="assets/img/brand/brand-1-4.png" alt="Brand Image">
+                        </div>
+                    </div>
+                    <div class="col-auto text-center">
+                        <div class="brand">
+                            <img src="assets/img/brand/brand-1-5.png" alt="Brand Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--==============================
+    Blog Area
+    ==============================-->
+    <section class="vs-blog-wrapper space-top space-md-bottom">
+        <div class="container">
+            <div class="row  text-center justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="section-title">
+                        <div class="sec-icon">
+                            <i class="flaticon-ecg"></i>
+                        </div>
+                        <h2 class="h1 ">Latest Posts</h2>
                         <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources istinctively impact proactive human</p>
                     </div>
                 </div>
@@ -1055,96 +947,6 @@
             </div>
         </div>
     </section>
-    <!--==============================
-    Brand Area
-    ==============================-->
-    <section class="vs-brand-wrapper position-relative  ">
-        <div class="icon-shape1 d-none d-xxl-block"><img src="assets/img/icon/icon-1.jpg" alt="Icon"></div>
-        <div class="icon-shape2 d-none d-xxl-block"><img src="assets/img/icon/icon-2.png" alt="Icon"></div>
-        <div class="container">
-            <div class="brand-wrap1" data-bg-src="assets/img/bg/bg-5.jpg">
-                <div class="row">
-                    <div class="col-md-10 col-lg-8 col-xl-6">
-                        <div class="section-title">
-                            <span class="h3 text-theme sec-subtitle">Customer Satisfaction</span>
-                            <h2 class="h1">We love our Brands</h2>
-                            <p>Proactively revolutionize granular customer service after pandemic internal or "organic" sources. Distinctively impact proactive human capital rather than client-centered benefits. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row vs-carousel" data-slide-show="5" data-lg-slide-show="4" data-md-slide-show="3" data-sm-slide-show="2">
-                    <div class="col-auto">
-                        <div class="brand">
-                            <img src="assets/img/brand/brand-1-1.png" alt="Brand Image">
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="brand">
-                            <img src="assets/img/brand/brand-1-2.png" alt="Brand Image">
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="brand">
-                            <img src="assets/img/brand/brand-1-3.png" alt="Brand Image">
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="brand">
-                            <img src="assets/img/brand/brand-1-4.png" alt="Brand Image">
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="brand">
-                            <img src="assets/img/brand/brand-1-5.png" alt="Brand Image">
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="brand">
-                            <img src="assets/img/brand/brand-1-1.png" alt="Brand Image">
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="brand">
-                            <img src="assets/img/brand/brand-1-2.png" alt="Brand Image">
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="brand">
-                            <img src="assets/img/brand/brand-1-3.png" alt="Brand Image">
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="brand">
-                            <img src="assets/img/brand/brand-1-4.png" alt="Brand Image">
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="brand">
-                            <img src="assets/img/brand/brand-1-5.png" alt="Brand Image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--==============================
-    Subscribe Form Area
-    ==============================-->
-    <div class="vs-newsletter-wrapper space-bottom">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-8" data-sec-pos="top-half" data-pos-for=".brand-wrap1">
-                    <form action="#" class="form-style1 form-wrap2">
-                        <div class="form-group mb-0 d-md-flex text-center text-md-start">
-                            <i class="fas fa-envelope text-theme"></i>
-                            <input type="text" class="form-control" placeholder="Enter your email address">
-                            <button type="submit" class="vs-btn style2 mt-30 mt-md-0"><i class="far fa-long-arrow-right"></i>Subscribe</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
     <!--==============================
 			Footer Area
 	==============================-->
@@ -1261,7 +1063,7 @@
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto text-center text-md-end">
-                        <p class="mb-0 text-white">Copyright <i class="fal fa-copyright"></i> 2022 <a class="text-white" href="index.html">Medilax</a>. All Rights Reserved by <a class="text-white" href="https://www.templatemonster.com/authors/vecuro/" target="_blank">Vecuro</a>.</p>
+                        <p class="mb-0 text-white">Copyright <i class="fal fa-copyright"></i> 2022 <a class="text-white" href="index-2.html">Medilax</a>. All Rights Reserved by <a class="text-white" href="https://www.templatemonster.com/authors/vecuro/" target="_blank">Vecuro</a>.</p>
                     </div>
                     <div class="col-auto d-none d-md-block">
                         <ul class="footer-bottom-menu">
